@@ -1,0 +1,6 @@
+@EvEconomicsExplorer.Api_HostAddress = http://localhost:5012
+
+GET {{EvEconomicsExplorer.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
