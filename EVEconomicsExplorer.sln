@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.7.11925.98
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
@@ -14,6 +14,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvEconomicsExplorer.Api.Tests", "tests\EvEconomicsExplorer.Api.Tests\EvEconomicsExplorer.Api.Tests.csproj", "{171B34D4-EAA1-4D6F-B1C5-9D7DF5855B02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE0447DD-158D-4CB8-8179-5E4776C2D0B7}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		.env.example = .env.example
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,5 +89,8 @@ Global
 		{1606A47F-DFF3-41D7-B72A-B719AB13492D} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{5977F6A2-F784-46C0-94A4-9A2DE0E14922} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{171B34D4-EAA1-4D6F-B1C5-9D7DF5855B02} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DB14407-A78B-46A1-ABDF-487F75ED6E41}
 	EndGlobalSection
 EndGlobal

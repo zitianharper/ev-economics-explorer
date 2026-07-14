@@ -1,4 +1,4 @@
-﻿namespace EvEconomicsExplorer.Api.Tests;
+﻿  namespace EvEconomicsExplorer.Api.Tests;
 
 public class Tests
 {
